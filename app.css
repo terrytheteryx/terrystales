@@ -15,15 +15,15 @@ p{
     border-color: cyan;
     border-style: solid;
     /*padding-top: 80px;*/
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     width: 920px;
     background-color: rgb(40, 40, 40);
 }
 .header a{
     float: left;
     color: white;
-    padding: 30px;
+    padding: 10px 20px 10px 20px;
 }
 .indexText{
     border-width: 3px;
@@ -33,6 +33,15 @@ p{
     padding: 0px 60px 0px 60px;
     background-color: white;
     width: 900px;
+}
+.propic{
+    width: 50px;
+    border-style: solid;
+    border-color: cyan;
+    border-width: 2px;
+}
+.td{
+    padding: 0px -20px 0px -20px;
 }
 .welcome{
     padding-top: 15px;
