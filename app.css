@@ -1,0 +1,37 @@
+h1, h2, p{
+    font-family: Arial;
+}
+body{
+    background-color: rgb(255, 186, 199);
+}
+p{
+    text-align: center;
+}
+.header{
+    border-width: 4px;
+    border-color: cyan;
+    border-style: solid;
+    /*padding-top: 80px;*/
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 920px;
+    background-color: rgb(40, 40, 40);
+}
+.header a{
+    float: left;
+    color: white;
+    padding: 30px;
+}
+.indexText{
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 0px 60px 0px 60px;
+    background-color: white;
+    width: 900px;
+}
+.welcome{
+    padding-top: 15px;
+    line-height: 10px;
+}
