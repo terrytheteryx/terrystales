@@ -1,6 +1,4 @@
-a.hover{
-    color: gray;
-}
+
 h1, h2, p{
     font-family: Arial;
 }
@@ -34,14 +32,35 @@ p{
     background-color: white;
     width: 900px;
 }
+.ito-but{
+    border-width: 2px;
+    border-style: solid;
+    border-color: cyan;
+    background-image: linear-gradient(rgb(255, 215, 0), rgb(192, 192, 192));
+}
+.ito-but:hover{
+    background-image: linear-gradient(rgb(228, 178, 0), rgb(155, 155, 155));
+}
 .propic{
     width: 50px;
     border-style: solid;
     border-color: cyan;
     border-width: 2px;
 }
+.propic:hover{
+    opacity: .7;
+}
 .td{
     padding: 0px -20px 0px -20px;
+}
+.tpop-but{
+    border-width: 2px;
+    border-style: solid;
+    border-color: cyan;
+    background-image: linear-gradient(rgb(137, 187, 120), rgb(143, 198, 219));
+}
+.tpop-but:hover{
+    background-image: linear-gradient(rgb(100, 141, 83), rgb(106, 161, 182)); 
 }
 .welcome{
     padding-top: 15px;
