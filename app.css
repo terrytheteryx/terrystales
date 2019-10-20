@@ -5,8 +5,19 @@ h1, h2, p{
 body{
     background-color: rgb(255, 186, 199);
 }
+li{
+    list-style-type: none;
+    border: 2px solid cyan;
+    text-align: center;
+    margin: 1px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
 p{
     text-align: center;
+}
+ul{
+    font-family: 'Source Code Pro', monospace;
 }
 .dropdown{
     position: relative;
