@@ -8,6 +8,13 @@ body{
 p{
     text-align: center;
 }
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover .tpop-drop{
+    display: block;
+}
 .eod-but{
     border-width: 2px;
     border-style: solid;
@@ -79,6 +86,19 @@ p{
 }
 .tpop-but:hover{
     background-image: linear-gradient(rgb(100, 141, 83), rgb(106, 161, 182)); 
+}
+.tpop-drop{
+    display: none;
+    position: absolute;
+    background-color: rgb(40, 40, 40);
+    min-width: 60px;
+    z-index: 1;
+}
+.tpop-drop a{
+    color: white;
+    padding: 15px 7px;
+    text-decoration: none;
+    display: block;
 }
 .welcome{
     padding-top: 15px;
