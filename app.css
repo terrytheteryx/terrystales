@@ -10,7 +10,7 @@ p{
 }
 .dropdown{
     position: relative;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 .dropdown:hover .tpop-drop{
     display: block;
