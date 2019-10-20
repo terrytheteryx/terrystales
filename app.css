@@ -10,9 +10,10 @@ p{
 }
 .dropdown{
     position: relative;
-    /*display: inline-block;*/
+    display: inline-block;
 }
 .dropdown:hover .tpop-drop{
+    margin-top: 43px;
     display: block;
 }
 .eod-but{
