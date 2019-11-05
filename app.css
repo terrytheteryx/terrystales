@@ -11,24 +11,14 @@ h3{
 body{
     background-color: rgb(255, 186, 199);
 }
-li{
-    list-style-type: none;
-    border: 2px solid cyan;
-    text-align: center;
-    padding-bottom: 3px;
-    margin: 1px;
-    margin-left: 120px;
-    margin-right: 120px;
-    background-color: rgb(40, 40, 40);
-}
-li:hover{
-    background-image: linear-gradient(rgb(115, 165, 57), rgb(113, 155, 210));
-}
 p{
     text-align: center;
 }
 ul{
-    font-family: 'Source Code Pro', monospace;
+    font-family: Arial;
+}
+.appe-char{
+    text-align: left;
 }
 .char-inside{
     text-align: left;
@@ -39,6 +29,20 @@ ul{
     background-color: white;
     font-family: "Fira Code";
     font-size: 13px;
+}
+.char-list{
+    list-style-type: none;
+    border: 2px solid cyan;
+    text-align: center;
+    padding-bottom: 3px;
+    margin: 1px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: rgb(40, 40, 40);
+    font-family: 'Source Code Pro', monospace;
+}
+.char-list:hover{
+    background-image: linear-gradient(rgb(115, 165, 57), rgb(113, 155, 210));
 }
 .char-table{
     background-color: lightgreen;
