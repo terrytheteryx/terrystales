@@ -51,11 +51,11 @@ ul{
     border-radius: 10px;
     border-color: green;
     padding: 0px 10px 0px 10px;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 .charText{
     text-align: left;
-    margin-top: -150px;
+    margin-top: -180px;
 }
 .dropdown{
     position: relative;
