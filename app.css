@@ -57,6 +57,28 @@ ul{
     text-align: left;
     margin-top: -180px;
 }
+.clv-but{
+    border-width: 2px;
+    border-style: solid;
+    border-color: cyan;
+    background-image: linear-gradient(rgb(6, 206, 42), rgb(127, 81, 0));
+}
+.clv-but:hover{
+    background-image: linear-gradient(rgb(0, 169, 5), rgb(90, 44, 0));
+}
+.clv-drop{
+    display: none;
+    position: absolute;
+    background-color: rgb(40, 40, 40);
+    min-width: 60px;
+    z-index: 1;
+}
+.clv-drop a{
+    color: white;
+    padding: 15px 7px;
+    text-decoration: none;
+    display: block;
+}
 .dropdown{
     position: relative;
     display: inline-block;
@@ -65,11 +87,19 @@ ul{
     position: relative;
     display: inline-block;
 }
+.dropdown3{
+    position: relative;
+    display: inline-block;
+}
 .dropdown:hover .tpop-drop{
     margin-top: 43px;
     display: block;
 }
 .dropdown2:hover .ito-drop{
+    margin-top: 43px;
+    display: block;
+}
+.dropdown3:hover .clv-drop{
     margin-top: 43px;
     display: block;
 }
@@ -82,16 +112,13 @@ ul{
 .eod-but:hover{
     background-image: linear-gradient(rgb(115, 165, 57), rgb(113, 155, 210));
 }
-.eod-but:active{
-    border-width: 3px;
-}
 .header{
     border-width: 4px;
     border-color: cyan;
     border-style: solid;
     padding-left: 40px;
     padding-right: 40px;
-    width: 920px;
+    width: 0px;
     background-color: rgb(40, 40, 40);
 }
 .header a{
@@ -116,9 +143,6 @@ ul{
 }
 .ito-but:hover{
     background-image: linear-gradient(rgb(228, 178, 0), rgb(155, 155, 155));
-}
-.ito-but:active{
-    border-width: 3px;
 }
 .ito-drop{
     display: none;
@@ -152,9 +176,6 @@ ul{
 .rrt-but:hover{
     background-image: linear-gradient(rgb(168, 156, 62), rgb(101, 163, 109));
 }
-.rrt-but:active{
-    border-width: 3px;
-}
 .td{
     padding: 0px -20px 0px -20px;
 }
@@ -166,9 +187,6 @@ ul{
 }
 .tpop-but:hover{
     background-image: linear-gradient(rgb(100, 141, 83), rgb(106, 161, 182)); 
-}
-.tpop-but:active{
-    border-width: 3px;
 }
 .tpop-drop{
     display: none;
