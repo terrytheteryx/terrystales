@@ -10,6 +10,7 @@ h3{
 }
 body{
     background-color: rgb(255, 186, 199);
+    font-family: Arial;
 }
 p{
     text-align: center;
@@ -19,6 +20,9 @@ ul{
 }
 .appe-char{
     text-align: left;
+}
+.black{
+    color: black;
 }
 .char-inside{
     text-align: left;
